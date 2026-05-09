@@ -394,7 +394,7 @@ if page == "chat":
         with st.chat_message(msg["role"], avatar="🧑" if msg["role"]=="user" else "🩺"):
             st.markdown(msg["content"])
             if msg.get("sources"):
-                st.markdown(f'<div style="color:#555;font-size:0.8rem;margin:0.5rem 0 0.3rem">📎 {len(msg["sources"])} Sources Retrieved</div>', unsafe_allow_html=True)
+                st.markdown('<div style="color:#10a37f;font-size:0.85rem;font-weight:600;margin:0.8rem 0 0.4rem;border-top:1px solid #222;padding-top:0.7rem">📚 Retrieved Sources</div>', unsafe_allow_html=True)
                 for rank, chunk in enumerate(msg["sources"], 1):
                     excerpt = smart_excerpt(chunk["text"], msg.get("query",""))
                     hl_text = highlight(excerpt, msg.get("query",""))
@@ -442,7 +442,7 @@ if page == "chat":
                     st.markdown(answer)
 
                     # Show sources always visible
-                    st.markdown(f'<div style="color:#555;font-size:0.8rem;margin:0.6rem 0 0.3rem">📎 {len(ctx)} Sources Retrieved · {st.session_state.method.upper()}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div style="color:#10a37f;font-size:0.85rem;font-weight:600;margin:0.8rem 0 0.4rem;border-top:1px solid #222;padding-top:0.7rem">📚 Retrieved Sources ({st.session_state.method.upper()})</div>', unsafe_allow_html=True)
                     for rank, chunk in enumerate(ctx, 1):
                         excerpt = smart_excerpt(chunk["text"], q)
                         hl_text = highlight(excerpt, q)
