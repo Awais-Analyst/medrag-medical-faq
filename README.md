@@ -175,12 +175,11 @@ medrag-medical-faq/
 
 ---
 
-## 👥 Authors
+## 👥 Author
 
-| Name | ID |
-|------|----|
-| **M Awais Mustafa** | 22F-3233 |
-| **Ali Raza** | 22F-3235 |
+| Name |
+|------|
+| **M Awais Mustafa** |
 
 ---
 
