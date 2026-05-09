@@ -188,6 +188,28 @@ mark.hl { background: rgba(16,163,127,0.25); color: #5eead4 !important;
 
 /* Nav button active */
 .nav-active > button { background: #1e2e28 !important; border-color: #10a37f44 !important; color: #10a37f !important; }
+
+/* ══ BUG FIXES ══ */
+/* Fix: _arrow_right / _arr_w_right text showing in expanders */
+[data-testid="stExpanderToggleIcon"] { display: none !important; }
+.streamlit-expanderHeader svg { display: none !important; }
+details > summary > span:nth-child(1) { display: none !important; }
+details > summary::marker { display: none !important; }
+details > summary::-webkit-details-marker { display: none !important; }
+
+/* Fix: keyboard_double_ text showing above sidebar */
+[data-testid="InputInstructions"] { display: none !important; }
+[data-baseweb="textarea"] ~ div[class*="instruction"] { display: none !important; }
+[data-testid="stChatInput"] div[class*="InputInstructions"] { display: none !important; }
+.st-emotion-cache-zt5igj { display: none !important; }
+[class*="_instructions"] { display: none !important; }
+div[class*="keyboard"] { display: none !important; }
+
+/* Fix: evaluation results status icon overlap */
+[data-testid="stExpander"] summary {
+    display: flex !important; align-items: center !important;
+    gap: 0.5rem !important; padding: 0.6rem 0.8rem !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -328,6 +350,17 @@ with st.sidebar:
     st.markdown('<div class="sb-label">Knowledge Base</div>', unsafe_allow_html=True)
     for lbl in DOC_LABELS.values():
         st.markdown(f'<div style="color:#666;font-size:0.82rem;padding:2px 0">{lbl}</div>', unsafe_allow_html=True)
+
+    # Branding footer
+    st.markdown("---")
+    st.markdown(
+        '<div style="text-align:center;padding:0.5rem 0 0.2rem">'
+        '<div style="font-size:1.4rem">🩺</div>'
+        '<div style="font-size:0.78rem;color:#444;margin-top:0.3rem">Made with ❤️ by</div>'
+        '<div style="font-size:0.88rem;font-weight:600;color:#10a37f;margin-top:0.1rem">Awais-Analyst</div>'
+        '</div>',
+        unsafe_allow_html=True
+    )
 
 
 # ══ MAIN AREA ════════════════════════════════════════════════════════════════
