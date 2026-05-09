@@ -190,26 +190,22 @@ mark.hl { background: rgba(16,163,127,0.25); color: #5eead4 !important;
 .nav-active > button { background: #1e2e28 !important; border-color: #10a37f44 !important; color: #10a37f !important; }
 
 /* ══ BUG FIXES ══ */
-/* Fix: _arrow_right / _arr_w_right text showing in expanders */
-[data-testid="stExpanderToggleIcon"] { display: none !important; }
-.streamlit-expanderHeader svg { display: none !important; }
-details > summary > span:nth-child(1) { display: none !important; }
+/* Fix arrow icon ONLY - do NOT hide span (that's the label text) */
+details > summary > svg { display: none !important; }
 details > summary::marker { display: none !important; }
 details > summary::-webkit-details-marker { display: none !important; }
+[data-testid="stExpanderToggleIcon"] { display: none !important; }
 
-/* Fix: keyboard_double_ text showing above sidebar */
+/* Fix: keyboard_double_ text above sidebar */
 [data-testid="InputInstructions"] { display: none !important; }
-[data-baseweb="textarea"] ~ div[class*="instruction"] { display: none !important; }
-[data-testid="stChatInput"] div[class*="InputInstructions"] { display: none !important; }
-.st-emotion-cache-zt5igj { display: none !important; }
+[class*="InputInstructions"] { display: none !important; }
 [class*="_instructions"] { display: none !important; }
-div[class*="keyboard"] { display: none !important; }
+div[data-baseweb="textarea"] ~ div { display: none !important; }
 
-/* Fix: evaluation results status icon overlap */
-[data-testid="stExpander"] summary {
-    display: flex !important; align-items: center !important;
-    gap: 0.5rem !important; padding: 0.6rem 0.8rem !important;
-}
+/* Expander text must stay visible */
+details > summary { color: #888 !important; font-size: 0.84rem !important;
+    padding: 0.5rem 0.8rem !important; cursor: pointer !important; }
+details > summary span { color: #888 !important; display: inline !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -398,19 +394,19 @@ if page == "chat":
         with st.chat_message(msg["role"], avatar="🧑" if msg["role"]=="user" else "🩺"):
             st.markdown(msg["content"])
             if msg.get("sources"):
-                with st.expander(f"📎 View {len(msg['sources'])} Sources", expanded=False):
-                    for rank, chunk in enumerate(msg["sources"], 1):
-                        excerpt  = smart_excerpt(chunk["text"], msg.get("query",""))
-                        hl_text  = highlight(excerpt, msg.get("query",""))
-                        lbl      = doc_label(chunk["doc_id"])
-                        score    = chunk.get("score", 0)
-                        st.markdown(f"""
-                        <div class="source-block">
-                          <div class="source-label">Rank {rank} · {lbl}
-                            <span class="score-badge">{score:.3f}</span>
-                          </div>
-                          {hl_text}
-                        </div>""", unsafe_allow_html=True)
+                st.markdown(f'<div style="color:#555;font-size:0.8rem;margin:0.5rem 0 0.3rem">📎 {len(msg["sources"])} Sources Retrieved</div>', unsafe_allow_html=True)
+                for rank, chunk in enumerate(msg["sources"], 1):
+                    excerpt = smart_excerpt(chunk["text"], msg.get("query",""))
+                    hl_text = highlight(excerpt, msg.get("query",""))
+                    lbl     = doc_label(chunk["doc_id"])
+                    score   = chunk.get("score", 0)
+                    st.markdown(f"""
+                    <div class="source-block">
+                      <div class="source-label">Rank {rank} · {lbl}
+                        <span class="score-badge">{score:.3f}</span>
+                      </div>
+                      {hl_text}
+                    </div>""", unsafe_allow_html=True)
 
     # Chat input
     user_input = st.chat_input("Ask a medical question…")
@@ -445,20 +441,20 @@ if page == "chat":
 
                     st.markdown(answer)
 
-                    # Show sources collapsed
-                    with st.expander(f"📎 View {len(ctx)} Sources", expanded=False):
-                        for rank, chunk in enumerate(ctx, 1):
-                            excerpt  = smart_excerpt(chunk["text"], q)
-                            hl_text  = highlight(excerpt, q)
-                            lbl      = doc_label(chunk["doc_id"])
-                            score    = chunk.get("score", 0)
-                            st.markdown(f"""
-                            <div class="source-block">
-                              <div class="source-label">Rank {rank} · {lbl}
-                                <span class="score-badge">{score:.3f}</span>
-                              </div>
-                              {hl_text}
-                            </div>""", unsafe_allow_html=True)
+                    # Show sources always visible
+                    st.markdown(f'<div style="color:#555;font-size:0.8rem;margin:0.6rem 0 0.3rem">📎 {len(ctx)} Sources Retrieved · {st.session_state.method.upper()}</div>', unsafe_allow_html=True)
+                    for rank, chunk in enumerate(ctx, 1):
+                        excerpt = smart_excerpt(chunk["text"], q)
+                        hl_text = highlight(excerpt, q)
+                        lbl     = doc_label(chunk["doc_id"])
+                        score   = chunk.get("score", 0)
+                        st.markdown(f"""
+                        <div class="source-block">
+                          <div class="source-label">Rank {rank} · {lbl}
+                            <span class="score-badge">{score:.3f}</span>
+                          </div>
+                          {hl_text}
+                        </div>""", unsafe_allow_html=True)
 
                     st.session_state.messages.append({
                         "role": "assistant", "content": answer,
@@ -500,7 +496,19 @@ elif page == "compare":
 # ─── EVALUATION PAGE ──────────────────────────────────────────────────────────
 elif page == "eval":
     st.markdown("## 📊 Experimental Evaluation")
-    st.markdown('<p style="color:#666">Automatically tests the RAG system on 10 queries and scores accuracy.</p>', unsafe_allow_html=True)
+    st.markdown("""
+    <div style='background:#141414;border:1px solid #2a2a2a;border-radius:10px;padding:1rem 1.2rem;margin-bottom:1rem'>
+    <div style='font-weight:600;color:#ececec;margin-bottom:0.4rem'>💡 What is this page?</div>
+    <div style='font-size:0.88rem;color:#888;line-height:1.7'>
+    This page automatically runs <b style='color:#ececec'>10 pre-set medical questions</b> through the full RAG pipeline
+    and checks how accurate the answers are by matching keywords from expected answers.<br><br>
+    ✅ <b style='color:#ececec'>CORRECT</b> = answer matched 60%+ expected keywords<br>
+    ⚠️ <b style='color:#ececec'>PARTIAL</b> = matched 30–59% keywords<br>
+    ❌ <b style='color:#ececec'>FAILURE</b> = matched less than 30%<br>
+    ℹ️ <b style='color:#ececec'>DECLINED</b> = system correctly refused an out-of-scope question<br><br>
+    <i style='color:#555'>The results below are from the last time you clicked Run. Click again to re-run with fresh API calls.</i>
+    </div></div>
+    """, unsafe_allow_html=True)
 
     if st.button("▶️ Run Full Evaluation"):
         api_key = get_api_key()
@@ -541,13 +549,23 @@ elif page == "eval":
               <div style="font-size:0.8rem;color:#666;margin-top:0.2rem">{lbl}</div>
             </div>""", unsafe_allow_html=True)
 
-        st.markdown("### Results")
+        st.markdown("### 📋 Results per Query")
         for r in rpt["results"]:
             icon = "✅" if "CORRECT" in str(r.get("status","")) else \
                    "⚠️" if "PARTIAL" in str(r.get("status","")) else \
                    "ℹ️" if "DECLINED" in str(r.get("status","")) else "❌"
-            with st.expander(f"{icon} {r['query']}"):
-                st.markdown(f"**Category:** {r['category']}  \n**Status:** `{r['status']}`  \n**Sources:** {', '.join(r.get('sources',[]))}  \n**Answer:** {r['answer']}")
+            status_str = str(r.get('status',''))
+            srcs = ', '.join(r.get('sources', [])) or 'N/A'
+            ans  = r.get('answer', '')
+            cat  = r.get('category', '')
+            st.markdown(f"""
+            <div style='background:#141414;border:1px solid #2a2a2a;border-radius:10px;
+                        padding:0.9rem 1.1rem;margin-bottom:0.6rem'>
+              <div style='font-weight:600;color:#ececec;margin-bottom:0.4rem'>{icon} {r['query']}</div>
+              <div style='font-size:0.8rem;color:#555;margin-bottom:0.5rem'>{cat} &nbsp;·&nbsp; <code style='color:#10a37f;background:transparent'>{status_str}</code></div>
+              <div style='font-size:0.82rem;color:#666;margin-bottom:0.3rem'>📚 Sources: <span style='color:#888'>{srcs}</span></div>
+              <div style='font-size:0.88rem;color:#bbb;line-height:1.6'>{ans}</div>
+            </div>""", unsafe_allow_html=True)
     else:
         st.info("No report yet. Click **Run Full Evaluation** above.")
 
