@@ -1,0 +1,31 @@
+MEDICAL FAQ - INFECTIOUS DISEASES AND VACCINES
+
+Q: What is a vaccine and how does it work?
+A: A vaccine is a biological preparation that provides active acquired immunity to a specific disease. Vaccines contain weakened or inactivated forms of a pathogen, subunit proteins, or mRNA that teaches the immune system to recognize and fight the pathogen. When you receive a vaccine, your immune system produces antibodies and memory cells. If you later encounter the real pathogen, your immune system can respond quickly and prevent or reduce illness. Vaccines have been one of the greatest public health achievements in history.
+
+Q: What is the difference between a bacterial and viral infection?
+A: Bacteria are single-celled living organisms that can reproduce on their own. Bacterial infections are treated with antibiotics. Viruses are much smaller than bacteria and require a host cell to replicate. Viral infections are treated with antiviral medications or managed with supportive care; most mild viral infections resolve on their own. Using antibiotics for viral infections is ineffective and contributes to antibiotic resistance. Examples of bacterial infections include strep throat and tuberculosis; viral examples include influenza and HIV.
+
+Q: What is antibiotic resistance?
+A: Antibiotic resistance occurs when bacteria evolve mechanisms to survive antibiotic treatment. It happens when antibiotics are overused or misused — such as not completing a prescribed course or using antibiotics for viral infections. Resistant bacteria cause harder-to-treat infections that require stronger antibiotics. The WHO considers antibiotic resistance one of the biggest threats to global health. Prevention includes using antibiotics only when prescribed, completing the full course, and not sharing antibiotics.
+
+Q: What is the flu and how is it different from a cold?
+A: Influenza (flu) is a contagious respiratory illness caused by influenza viruses. Unlike the common cold (usually caused by rhinoviruses), the flu comes on suddenly and tends to be more severe. Flu symptoms include high fever, severe body aches, extreme fatigue, headache, dry cough, and chills. Cold symptoms are usually milder — runny nose, sneezing, mild cough, and low-grade fever. Annual flu vaccination is recommended for everyone 6 months and older.
+
+Q: How is HIV transmitted and can it be cured?
+A: HIV (Human Immunodeficiency Virus) is transmitted through contact with certain body fluids of a person who has HIV — blood, semen, vaginal fluids, rectal fluids, and breast milk. It is NOT spread by casual contact, hugging, sharing dishes, or mosquito bites. HIV cannot currently be cured, but antiretroviral therapy (ART) is highly effective at controlling the virus, allowing people with HIV to live long, healthy lives and preventing transmission. PrEP (pre-exposure prophylaxis) is a preventive medication for high-risk individuals.
+
+Q: What is tuberculosis (TB)?
+A: Tuberculosis is an infectious disease caused by Mycobacterium tuberculosis bacteria. It primarily affects the lungs (pulmonary TB) but can also affect other organs. TB spreads through the air when an infected person coughs, sneezes, or speaks. Symptoms include a persistent cough (lasting 3+ weeks), coughing blood, chest pain, fatigue, weight loss, night sweats, and fever. TB is treated with a combination of antibiotics taken for 6-9 months. Drug-resistant TB is a growing global concern.
+
+Q: What is malaria and how is it prevented?
+A: Malaria is a life-threatening disease caused by Plasmodium parasites transmitted through the bites of infected female Anopheles mosquitoes. Symptoms include fever, chills, sweats, headache, nausea, and vomiting, appearing 10-15 days after infection. It is preventable and treatable. Prevention includes using insecticide-treated mosquito nets, indoor spraying, antimalarial medications (prophylaxis), and mosquito repellents. A malaria vaccine (RTS,S/AS01) has been approved for use in sub-Saharan Africa for young children.
+
+Q: Why is handwashing important for preventing infections?
+A: Handwashing with soap and water is one of the most effective ways to prevent the spread of many types of illness. Hands can carry and transfer pathogens from surfaces to the face and body. Proper handwashing (at least 20 seconds with soap) removes dirt, viruses, bacteria, and other contaminants. It is especially important before eating or preparing food, after using the toilet, after coughing or sneezing, after handling animals, and after touching surfaces in public places. Hand sanitizer (60%+ alcohol) is an effective alternative when soap and water are unavailable.
+
+Q: What is the recommended vaccination schedule for children?
+A: The CDC recommended childhood vaccination schedule includes vaccines for Hepatitis B (birth, 1-2 months, 6-18 months), DTaP (diphtheria, tetanus, pertussis) at 2, 4, 6 months, and boosters, Hib (Haemophilus influenzae type b) at 2, 4, 6 months, PCV13 (pneumococcal), IPV (polio), MMR (measles, mumps, rubella), varicella (chickenpox), Hepatitis A, and annual influenza vaccine from 6 months. Vaccines are rigorously tested for safety and efficacy before approval. The schedule is designed to protect children when they are most vulnerable.
+
+Q: What is herd immunity?
+A: Herd immunity (also called community immunity) occurs when a large portion of a population becomes immune to a disease, making the spread of disease from person to person unlikely. This indirectly protects people who cannot be vaccinated (infants, immunocompromised individuals). The threshold for herd immunity varies by disease — measles requires about 95% immunity, while polio requires about 80-85%. Herd immunity can be achieved through vaccination or natural infection, but vaccination is the safer method as it avoids the risks of disease itself.

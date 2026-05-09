@@ -1,0 +1,303 @@
+[
+  {
+    "chunk_id": "doc1_diabetes_chunk_0",
+    "doc_id": "doc1_diabetes",
+    "text": "MEDICAL FAQ - DIABETES Q: What is diabetes? A: Diabetes is a chronic disease that occurs when the pancreas does not produce enough insulin, or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood sugar. Elevated blood sugar (hyperglycemia) is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels. Q: What are the types of diabetes? A: There are three main types of diabetes. Type 1 diabetes is a chronic condition in which the pancreas produces little or no insulin. Type 2 diabetes affects how the body processes blood sugar (glucose) and is more common in adults. Gestational diabetes develops in some women during pregnancy and usually goes away after giving birth, though it increases the risk of developing Type 2 diabetes later. Q: What are the symptoms of diabetes? A: Common symptoms of diabetes include frequent urination, excessive thirst, unexplained weight loss, extreme hunger, blurry vision, numbness or tingling in hands or feet, fatigue, and very slow healing of cuts or bruises. In Type 1 diabetes, symptoms often appear quickly while in Type 2, they",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc1_diabetes_chunk_1",
+    "doc_id": "doc1_diabetes",
+    "text": "the symptoms of diabetes? A: Common symptoms of diabetes include frequent urination, excessive thirst, unexplained weight loss, extreme hunger, blurry vision, numbness or tingling in hands or feet, fatigue, and very slow healing of cuts or bruises. In Type 1 diabetes, symptoms often appear quickly while in Type 2, they may develop slowly over many years. Q: How is diabetes diagnosed? A: Diabetes is diagnosed using blood tests. The fasting blood glucose test measures blood sugar after an 8-hour fast. An A1C test reflects average blood sugar over 2-3 months. A random blood sugar test measures blood glucose at any time. A glucose tolerance test measures blood sugar before and after consuming a glucose drink. Results above normal thresholds confirm a diabetes diagnosis. Q: How is diabetes treated? A: Diabetes management depends on the type. Type 1 diabetes requires daily insulin injections or an insulin pump. Type 2 diabetes is often managed with lifestyle changes such as healthy eating and exercise, and may also require oral medications or insulin. All people with diabetes benefit from regular blood sugar monitoring, healthy diet, regular physical activity, and routine medical checkups. Q: Can diabetes be prevented? A: Type 2 diabetes can be prevented",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc1_diabetes_chunk_2",
+    "doc_id": "doc1_diabetes",
+    "text": "often managed with lifestyle changes such as healthy eating and exercise, and may also require oral medications or insulin. All people with diabetes benefit from regular blood sugar monitoring, healthy diet, regular physical activity, and routine medical checkups. Q: Can diabetes be prevented? A: Type 2 diabetes can be prevented or delayed with lifestyle changes. Maintaining a healthy weight, eating a balanced diet rich in fiber and low in refined sugars, getting regular physical activity (at least 150 minutes per week), and avoiding smoking significantly reduce the risk. Type 1 diabetes currently cannot be prevented as it is an autoimmune condition. Q: What complications can diabetes cause? A: Uncontrolled diabetes can lead to serious complications including heart disease and stroke, kidney disease (nephropathy), eye damage that can lead to blindness (retinopathy), nerve damage (neuropathy), foot problems that may require amputation, and increased susceptibility to infections. Early and consistent management greatly reduces the risk of these complications. Q: What is the HbA1c test? A: The HbA1c (Hemoglobin A1c) test is a blood test that measures your average blood sugar levels over the past 2 to 3 months. It shows what percentage of hemoglobin is coated with sugar (glycated). An HbA1c below",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc1_diabetes_chunk_3",
+    "doc_id": "doc1_diabetes",
+    "text": "reduces the risk of these complications. Q: What is the HbA1c test? A: The HbA1c (Hemoglobin A1c) test is a blood test that measures your average blood sugar levels over the past 2 to 3 months. It shows what percentage of hemoglobin is coated with sugar (glycated). An HbA1c below 5.7% is normal, 5.7-6.4% indicates prediabetes, and 6.5% or above indicates diabetes. For people already diagnosed, the target is generally below 7%. Q: What foods should a diabetic avoid? A: People with diabetes should limit or avoid sugary beverages like soda and fruit juice, white bread and refined grains, processed and packaged snacks, full-fat dairy products, fried foods, high-fat meats, and foods with added sugars. Instead, they should choose whole grains, lean proteins, non-starchy vegetables, and healthy fats like those found in nuts and avocados. Q: What is hypoglycemia? A: Hypoglycemia, also called low blood sugar, occurs when blood glucose falls below normal levels (usually below 70 mg/dL). It is most common in people taking insulin or certain diabetes medications. Symptoms include shakiness, sweating, rapid heartbeat, hunger, dizziness, confusion, and in severe cases, loss of consciousness. Treatment involves consuming fast-acting carbohydrates like glucose tablets, fruit juice, or regular soda.",
+    "start_word": 450,
+    "end_word": 649
+  },
+  {
+    "chunk_id": "doc1_diabetes_chunk_4",
+    "doc_id": "doc1_diabetes",
+    "text": "falls below normal levels (usually below 70 mg/dL). It is most common in people taking insulin or certain diabetes medications. Symptoms include shakiness, sweating, rapid heartbeat, hunger, dizziness, confusion, and in severe cases, loss of consciousness. Treatment involves consuming fast-acting carbohydrates like glucose tablets, fruit juice, or regular soda.",
+    "start_word": 600,
+    "end_word": 649
+  },
+  {
+    "chunk_id": "doc2_hypertension_chunk_0",
+    "doc_id": "doc2_hypertension",
+    "text": "MEDICAL FAQ - HYPERTENSION (HIGH BLOOD PRESSURE) Q: What is hypertension? A: Hypertension, commonly known as high blood pressure, is a condition in which the force of blood against artery walls is consistently too high. Blood pressure is measured in millimeters of mercury (mmHg) and recorded as two numbers: systolic pressure (when the heart beats) over diastolic pressure (when the heart rests). A reading of 130/80 mmHg or higher is considered hypertension by most medical guidelines. Q: What causes high blood pressure? A: Primary (essential) hypertension has no identifiable cause and develops gradually over many years. Secondary hypertension is caused by an underlying condition such as kidney disease, adrenal gland tumors, thyroid problems, or use of certain medications. Risk factors include age, family history, obesity, sedentary lifestyle, excessive salt intake, heavy alcohol use, stress, and smoking. Q: What are the symptoms of hypertension? A: Hypertension is often called the \"silent killer\" because most people with high blood pressure have no symptoms. In severe cases, symptoms may include severe headaches, nosebleeds, shortness of breath, chest pain, dizziness, and visual changes. The only reliable way to know if you have hypertension is to have your blood pressure measured regularly. Q: How is",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc2_hypertension_chunk_1",
+    "doc_id": "doc2_hypertension",
+    "text": "killer\" because most people with high blood pressure have no symptoms. In severe cases, symptoms may include severe headaches, nosebleeds, shortness of breath, chest pain, dizziness, and visual changes. The only reliable way to know if you have hypertension is to have your blood pressure measured regularly. Q: How is hypertension diagnosed? A: Hypertension is diagnosed through blood pressure measurements taken with a sphygmomanometer. A diagnosis requires consistently elevated readings on multiple occasions. Doctors typically confirm diagnosis after 2-3 elevated readings on separate visits. Home blood pressure monitoring and 24-hour ambulatory blood pressure monitoring may also be used for more accurate diagnosis. Q: How is hypertension treated? A: Treatment includes lifestyle modifications and medications. Lifestyle changes include adopting a heart-healthy diet (DASH diet), reducing sodium intake, increasing physical activity, maintaining healthy weight, limiting alcohol, and quitting smoking. Medications include diuretics, ACE inhibitors, angiotensin receptor blockers (ARBs), calcium channel blockers, and beta-blockers. Often a combination is needed for adequate control. Q: What is the DASH diet? A: The DASH (Dietary Approaches to Stop Hypertension) diet is an eating plan specifically designed to help lower blood pressure. It emphasizes fruits, vegetables, whole grains, lean proteins (poultry, fish, nuts), and low-fat dairy products.",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc2_hypertension_chunk_2",
+    "doc_id": "doc2_hypertension",
+    "text": "beta-blockers. Often a combination is needed for adequate control. Q: What is the DASH diet? A: The DASH (Dietary Approaches to Stop Hypertension) diet is an eating plan specifically designed to help lower blood pressure. It emphasizes fruits, vegetables, whole grains, lean proteins (poultry, fish, nuts), and low-fat dairy products. It limits foods high in saturated fats, cholesterol, and sodium, as well as sweets and sugary beverages. Following the DASH diet can reduce blood pressure by 8-14 mmHg. Q: What complications can hypertension cause? A: Uncontrolled high blood pressure damages blood vessels and organs over time. Complications include heart attack, heart failure, stroke, aneurysm, kidney failure, and vision loss. It is a leading risk factor for cardiovascular disease globally. Hypertension can also cause cognitive decline and dementia. Consistent treatment and management are critical to preventing these serious outcomes. Q: Can hypertension be cured? A: Primary hypertension cannot be cured but can be effectively managed. Secondary hypertension may resolve if the underlying cause is treated. With proper medication adherence and lifestyle changes, blood pressure can be controlled to safe levels. However, stopping treatment often causes blood pressure to rise again, so most people require long-term management. Q: How does salt affect",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc2_hypertension_chunk_3",
+    "doc_id": "doc2_hypertension",
+    "text": "can be effectively managed. Secondary hypertension may resolve if the underlying cause is treated. With proper medication adherence and lifestyle changes, blood pressure can be controlled to safe levels. However, stopping treatment often causes blood pressure to rise again, so most people require long-term management. Q: How does salt affect blood pressure? A: Excessive sodium intake causes the body to retain water, increasing blood volume and consequently raising blood pressure. The recommended sodium intake for people with hypertension is less than 1,500 mg per day, while the general recommendation is less than 2,300 mg per day. Reducing sodium can lower blood pressure by 2-8 mmHg. Processed foods, canned goods, and restaurant meals are the major sources of excess sodium in the diet. Q: What is white coat hypertension? A: White coat hypertension refers to elevated blood pressure readings that occur only in a medical setting, such as a doctor's office, but not in other settings. It is believed to result from anxiety triggered by the clinical environment. It affects approximately 15-30% of people diagnosed with hypertension. 24-hour ambulatory blood pressure monitoring or home monitoring can help distinguish white coat hypertension from true hypertension.",
+    "start_word": 450,
+    "end_word": 643
+  },
+  {
+    "chunk_id": "doc2_hypertension_chunk_4",
+    "doc_id": "doc2_hypertension",
+    "text": "but not in other settings. It is believed to result from anxiety triggered by the clinical environment. It affects approximately 15-30% of people diagnosed with hypertension. 24-hour ambulatory blood pressure monitoring or home monitoring can help distinguish white coat hypertension from true hypertension.",
+    "start_word": 600,
+    "end_word": 643
+  },
+  {
+    "chunk_id": "doc3_covid19_chunk_0",
+    "doc_id": "doc3_covid19",
+    "text": "MEDICAL FAQ - COVID-19 Q: What is COVID-19? A: COVID-19 is an infectious disease caused by the SARS-CoV-2 coronavirus, first identified in Wuhan, China in December 2019. It was declared a global pandemic by the World Health Organization (WHO) in March 2020. The virus spreads primarily through respiratory droplets and aerosols when an infected person breathes, talks, coughs, or sneezes. It can also spread by touching contaminated surfaces and then touching the face. Q: What are the symptoms of COVID-19? A: Common symptoms include fever or chills, cough, shortness of breath, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea. Symptoms appear 2 to 14 days after exposure. Some people are asymptomatic (show no symptoms) but can still spread the virus. Severe illness can cause pneumonia, acute respiratory distress syndrome, and organ failure. Q: How is COVID-19 treated? A: Most mild to moderate cases recover at home with rest, hydration, and over-the-counter medications for fever and pain relief. Antiviral medications such as Paxlovid (nirmatrelvir/ritonavir) are available for high-risk patients. Severe cases may require hospitalization, supplemental oxygen, or mechanical ventilation. Monoclonal antibody treatments and corticosteroids like dexamethasone",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc3_covid19_chunk_1",
+    "doc_id": "doc3_covid19",
+    "text": "COVID-19 treated? A: Most mild to moderate cases recover at home with rest, hydration, and over-the-counter medications for fever and pain relief. Antiviral medications such as Paxlovid (nirmatrelvir/ritonavir) are available for high-risk patients. Severe cases may require hospitalization, supplemental oxygen, or mechanical ventilation. Monoclonal antibody treatments and corticosteroids like dexamethasone have been used in severe cases. Early treatment improves outcomes. Q: How can COVID-19 be prevented? A: Prevention measures include vaccination, wearing well-fitted masks in crowded or indoor settings, frequent hand washing with soap and water for at least 20 seconds, using hand sanitizer with at least 60% alcohol, maintaining physical distancing, improving ventilation in indoor spaces, and staying home when sick. Vaccination is the most effective way to prevent severe illness, hospitalization, and death. Q: What is long COVID? A: Long COVID (also called Post-COVID Conditions) refers to a wide range of health problems that persist for 4 or more weeks after the initial COVID-19 infection. Symptoms include fatigue, shortness of breath, cognitive impairment (\"brain fog\"), joint pain, chest pain, depression, anxiety, and sleep disturbances. Long COVID can affect people regardless of the severity of their initial infection and can last for months or even years. Q: How effective",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc3_covid19_chunk_2",
+    "doc_id": "doc3_covid19",
+    "text": "more weeks after the initial COVID-19 infection. Symptoms include fatigue, shortness of breath, cognitive impairment (\"brain fog\"), joint pain, chest pain, depression, anxiety, and sleep disturbances. Long COVID can affect people regardless of the severity of their initial infection and can last for months or even years. Q: How effective are COVID-19 vaccines? A: COVID-19 vaccines have been shown to be highly effective at preventing severe illness, hospitalization, and death. mRNA vaccines (Pfizer-BioNTech and Moderna) initially showed over 90% effectiveness against the original strain. Effectiveness against newer variants varies, but vaccines continue to provide strong protection against severe disease. Booster doses help maintain and enhance protection over time. Q: What is the difference between quarantine and isolation for COVID-19? A: Isolation is used for people who have tested positive for COVID-19 or have symptoms, to prevent spreading the virus to others. Quarantine is used for people who have been exposed to COVID-19 but are not yet sick, to monitor for symptoms. The CDC currently recommends isolation for at least 5 days after a positive test, followed by masking when around others until day 10. Q: Can COVID-19 affect children? A: Children can get COVID-19 and can spread it to others,",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc3_covid19_chunk_3",
+    "doc_id": "doc3_covid19",
+    "text": "to COVID-19 but are not yet sick, to monitor for symptoms. The CDC currently recommends isolation for at least 5 days after a positive test, followed by masking when around others until day 10. Q: Can COVID-19 affect children? A: Children can get COVID-19 and can spread it to others, but they generally experience milder illness than adults. However, some children develop severe illness, particularly those with underlying health conditions. A rare but serious condition called Multisystem Inflammatory Syndrome in Children (MIS-C) has been linked to COVID-19. COVID-19 vaccines are approved for children aged 6 months and older. Q: What are COVID-19 variants? A: Variants of SARS-CoV-2 arise through mutations in the virus's genetic material. The WHO classifies variants as Variants of Concern (VOC), Variants of Interest (VOI), or Variants Under Monitoring. Notable variants include Alpha, Beta, Delta, and Omicron. The Omicron variant and its subvariants have been dominant globally since late 2021. Some variants are more transmissible or may partially evade immune responses from previous infection or vaccination. Q: How long does COVID-19 immunity last? A: Immunity from COVID-19 infection or vaccination is not permanent. Natural immunity from infection varies widely and may wane over time. Vaccine-induced immunity also",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc3_covid19_chunk_4",
+    "doc_id": "doc3_covid19",
+    "text": "since late 2021. Some variants are more transmissible or may partially evade immune responses from previous infection or vaccination. Q: How long does COVID-19 immunity last? A: Immunity from COVID-19 infection or vaccination is not permanent. Natural immunity from infection varies widely and may wane over time. Vaccine-induced immunity also decreases over time, which is why booster doses are recommended. Hybrid immunity (from both infection and vaccination) appears to provide stronger and more durable protection. Current guidance recommends staying up to date with COVID-19 vaccines including recommended boosters.",
+    "start_word": 600,
+    "end_word": 688
+  },
+  {
+    "chunk_id": "doc4_heart_disease_chunk_0",
+    "doc_id": "doc4_heart_disease",
+    "text": "MEDICAL FAQ - HEART DISEASE Q: What is heart disease? A: Heart disease, also called cardiovascular disease, refers to a range of conditions that affect the heart and blood vessels. The most common type is coronary artery disease (CAD), in which plaque builds up in the arteries that supply blood to the heart, reducing or blocking blood flow. Other types include heart failure, arrhythmia, heart valve disease, and congenital heart defects. Heart disease is the leading cause of death globally. Q: What are the warning signs of a heart attack? A: Heart attack warning signs include chest pain or discomfort (pressure, squeezing, fullness, or pain) that may radiate to the arm, jaw, back, or neck; shortness of breath; cold sweat; nausea or lightheadedness. Women may experience more subtle symptoms such as fatigue, indigestion-like discomfort, or jaw pain. If you suspect a heart attack, call emergency services immediately — time is critical. Do not drive yourself to the hospital. Q: What causes heart disease? A: Major risk factors include high blood pressure, high cholesterol, smoking, diabetes, obesity, physical inactivity, unhealthy diet, excessive alcohol use, family history, age, and stress. Atherosclerosis (buildup of plaque in arteries) is the underlying process in most",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc4_heart_disease_chunk_1",
+    "doc_id": "doc4_heart_disease",
+    "text": "critical. Do not drive yourself to the hospital. Q: What causes heart disease? A: Major risk factors include high blood pressure, high cholesterol, smoking, diabetes, obesity, physical inactivity, unhealthy diet, excessive alcohol use, family history, age, and stress. Atherosclerosis (buildup of plaque in arteries) is the underlying process in most heart disease. Inflammation, poor lifestyle choices, and genetic predisposition all contribute to the development of cardiovascular disease over time. Q: How is heart disease diagnosed? A: Diagnosis involves a combination of medical history, physical examination, and diagnostic tests. Common tests include electrocardiogram (ECG/EKG), echocardiogram, stress test, blood tests (cholesterol, cardiac enzymes), chest X-ray, coronary angiography, CT scan, and MRI. Regular screening of blood pressure and cholesterol levels helps detect risk early. Early detection allows for more effective management and prevention of serious complications. Q: How is heart disease treated? A: Treatment depends on the type and severity of heart disease. Options include lifestyle changes (diet, exercise, smoking cessation), medications (statins, beta-blockers, ACE inhibitors, blood thinners), and procedures or surgeries (angioplasty, stent placement, bypass surgery, valve repair or replacement, implantable defibrillators, pacemakers). Cardiac rehabilitation programs help patients recover and reduce future risk after a heart event. Q: Can heart disease be",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc4_heart_disease_chunk_2",
+    "doc_id": "doc4_heart_disease",
+    "text": "Options include lifestyle changes (diet, exercise, smoking cessation), medications (statins, beta-blockers, ACE inhibitors, blood thinners), and procedures or surgeries (angioplasty, stent placement, bypass surgery, valve repair or replacement, implantable defibrillators, pacemakers). Cardiac rehabilitation programs help patients recover and reduce future risk after a heart event. Q: Can heart disease be prevented? A: Many forms of heart disease can be prevented or significantly reduced through lifestyle modifications. Key prevention strategies include not smoking, maintaining healthy blood pressure and cholesterol, managing diabetes, eating a heart-healthy diet (low in saturated fat, trans fats, and sodium), exercising regularly, maintaining healthy weight, limiting alcohol, managing stress, and getting regular medical checkups. Starting these habits early provides the greatest benefit. Q: What is cholesterol and how does it affect the heart? A: Cholesterol is a waxy, fat-like substance found in the blood. LDL (low-density lipoprotein) cholesterol, known as \"bad\" cholesterol, contributes to plaque buildup in arteries, increasing the risk of heart disease and stroke. HDL (high-density lipoprotein) cholesterol is \"good\" cholesterol that helps remove LDL from the bloodstream. Triglycerides are another type of blood fat. High total cholesterol, high LDL, and low HDL all increase cardiovascular risk. Q: What is heart failure? A: Heart failure is",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc4_heart_disease_chunk_3",
+    "doc_id": "doc4_heart_disease",
+    "text": "increasing the risk of heart disease and stroke. HDL (high-density lipoprotein) cholesterol is \"good\" cholesterol that helps remove LDL from the bloodstream. Triglycerides are another type of blood fat. High total cholesterol, high LDL, and low HDL all increase cardiovascular risk. Q: What is heart failure? A: Heart failure is a condition in which the heart cannot pump enough blood to meet the body's needs. It can occur when the heart is too weak to pump effectively (systolic failure) or when the heart muscle is stiff and cannot fill properly (diastolic failure). Symptoms include shortness of breath, fatigue, swollen legs and ankles, rapid or irregular heartbeat, and reduced ability to exercise. Despite its name, heart failure does not mean the heart has stopped. Q: What does an electrocardiogram (ECG) show? A: An electrocardiogram (ECG or EKG) records the electrical activity of the heart. It shows the heart rate and rhythm, and can detect abnormalities such as arrhythmias (irregular heartbeats), heart attacks (past or current), enlarged heart chambers, and problems with the heart's electrical conduction system. It is a painless, non-invasive test performed by attaching electrodes to the skin of the chest, arms, and legs. Q: What is atrial fibrillation? A:",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc4_heart_disease_chunk_4",
+    "doc_id": "doc4_heart_disease",
+    "text": "and can detect abnormalities such as arrhythmias (irregular heartbeats), heart attacks (past or current), enlarged heart chambers, and problems with the heart's electrical conduction system. It is a painless, non-invasive test performed by attaching electrodes to the skin of the chest, arms, and legs. Q: What is atrial fibrillation? A: Atrial fibrillation (AFib) is the most common serious cardiac arrhythmia. In AFib, the upper chambers of the heart (atria) beat chaotically and irregularly instead of coordinating effectively with the lower chambers (ventricles). This can cause symptoms like palpitations, fatigue, shortness of breath, and dizziness. AFib significantly increases the risk of stroke, blood clots, and heart failure. Treatment includes blood thinners, rate control medications, rhythm control medications, and procedures like cardioversion or ablation.",
+    "start_word": 600,
+    "end_word": 722
+  },
+  {
+    "chunk_id": "doc5_mental_health_chunk_0",
+    "doc_id": "doc5_mental_health",
+    "text": "MEDICAL FAQ - MENTAL HEALTH Q: What is mental health? A: Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act, and helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood. Mental health conditions are common — about 1 in 5 adults experiences a mental illness in any given year. Q: What is depression? A: Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, think, and act. It causes persistent feelings of sadness, loss of interest in activities once enjoyed, and can lead to a variety of emotional and physical problems. Symptoms must persist for at least two weeks for a diagnosis. Depression is one of the most treatable mental health conditions, with 80-90% of people responding positively to treatment. Q: What are the symptoms of anxiety disorders? A: Anxiety disorders involve more than temporary worry or fear. Symptoms include excessive worry that is difficult to control, restlessness or feeling on edge, fatigue, difficulty concentrating, irritability, muscle tension, sleep problems, rapid heartbeat, sweating, trembling, and shortness of",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc5_mental_health_chunk_1",
+    "doc_id": "doc5_mental_health",
+    "text": "positively to treatment. Q: What are the symptoms of anxiety disorders? A: Anxiety disorders involve more than temporary worry or fear. Symptoms include excessive worry that is difficult to control, restlessness or feeling on edge, fatigue, difficulty concentrating, irritability, muscle tension, sleep problems, rapid heartbeat, sweating, trembling, and shortness of breath. There are several types including Generalized Anxiety Disorder (GAD), Panic Disorder, Social Anxiety Disorder, and specific phobias. Anxiety disorders are the most common mental health conditions worldwide. Q: How is depression treated? A: Depression is treated with psychotherapy (especially Cognitive Behavioral Therapy or CBT), antidepressant medications (SSRIs, SNRIs, TCAs, MAOIs), or a combination of both. Lifestyle changes including regular exercise, adequate sleep, healthy nutrition, and social support also play an important role. For severe or treatment-resistant depression, options include electroconvulsive therapy (ECT), transcranial magnetic stimulation (TMS), and ketamine infusions. Q: What is the difference between stress and anxiety? A: Stress is a normal response to external pressures or threats and typically goes away when the stressor is resolved. Anxiety is a persistent sense of worry or fear that may not be tied to a specific cause and continues even after the stressor is gone. While stress is usually short-term,",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc5_mental_health_chunk_2",
+    "doc_id": "doc5_mental_health",
+    "text": "Stress is a normal response to external pressures or threats and typically goes away when the stressor is resolved. Anxiety is a persistent sense of worry or fear that may not be tied to a specific cause and continues even after the stressor is gone. While stress is usually short-term, anxiety can be chronic and interfere significantly with daily life. Both can have physical and emotional symptoms, but anxiety disorders require clinical treatment whereas everyday stress usually resolves on its own. Q: What is schizophrenia? A: Schizophrenia is a serious mental disorder characterized by distorted thinking, perceptions, emotions, language, sense of self, and behavior. Symptoms include positive symptoms (hallucinations, delusions, disorganized thinking), negative symptoms (reduced motivation, flat affect, social withdrawal), and cognitive symptoms (problems with attention, memory, and executive function). It typically emerges in late adolescence or early adulthood. It is a chronic condition requiring long-term management with antipsychotic medications and psychosocial support. Q: How can I support someone with a mental illness? A: Supporting someone with mental illness involves educating yourself about their condition, listening without judgment, offering practical help, encouraging them to seek professional help, being patient and consistent, avoiding stigmatizing language, and taking care of your own",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc5_mental_health_chunk_3",
+    "doc_id": "doc5_mental_health",
+    "text": "and psychosocial support. Q: How can I support someone with a mental illness? A: Supporting someone with mental illness involves educating yourself about their condition, listening without judgment, offering practical help, encouraging them to seek professional help, being patient and consistent, avoiding stigmatizing language, and taking care of your own mental health. Do not try to \"fix\" them or minimize their experience. Crisis resources like suicide hotlines should be known and shared when needed. Professional guidance from therapists or support groups can also help caregivers. Q: What is PTSD? A: Post-Traumatic Stress Disorder (PTSD) is a mental health condition triggered by experiencing or witnessing a terrifying event. Symptoms include intrusive memories, flashbacks, nightmares, severe anxiety, avoidance of reminders, negative changes in thinking and mood, and hyperarousal (being easily startled, sleep problems, irritability). PTSD can affect anyone, not just combat veterans. Treatment includes trauma-focused psychotherapy (Prolonged Exposure, EMDR) and medications such as SSRIs. Q: What is bipolar disorder? A: Bipolar disorder is a mental health condition characterized by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression). During manic episodes, a person may feel unusually energetic, euphoric, or irritable. During depressive episodes, they may feel hopeless or",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc5_mental_health_chunk_4",
+    "doc_id": "doc5_mental_health",
+    "text": "as SSRIs. Q: What is bipolar disorder? A: Bipolar disorder is a mental health condition characterized by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression). During manic episodes, a person may feel unusually energetic, euphoric, or irritable. During depressive episodes, they may feel hopeless or lose interest in most activities. Bipolar disorder is a lifelong condition that is managed with mood stabilizers (lithium), anticonvulsants, antipsychotics, psychotherapy, and lifestyle management. Q: What mental health resources are available? A: Mental health resources include primary care physicians, psychiatrists, psychologists, licensed counselors and therapists, community mental health centers, crisis hotlines (988 Suicide and Crisis Lifeline in the US), online therapy platforms, support groups (in-person and online), and employee assistance programs. Schools and universities also typically provide mental health services. Many insurance plans now cover mental health treatment, and sliding-scale fees are available at many clinics for those without insurance.",
+    "start_word": 600,
+    "end_word": 750
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_0",
+    "doc_id": "doc6_nutrition",
+    "text": "MEDICAL FAQ - NUTRITION AND DIET Q: What is a balanced diet? A: A balanced diet includes a variety of foods in the right proportions to provide the nutrients necessary for good health. It includes fruits and vegetables (at least 5 portions per day), starchy carbohydrates (preferably whole grain), proteins (lean meat, fish, eggs, beans, legumes), dairy or dairy alternatives, and small amounts of healthy fats. A balanced diet provides adequate calories, macronutrients (carbohydrates, proteins, fats), and micronutrients (vitamins, minerals) while limiting processed foods, sugar, and excessive sodium. Q: What are macronutrients? A: Macronutrients are nutrients required in large amounts that provide energy. The three main macronutrients are carbohydrates (4 calories per gram), proteins (4 calories per gram), and fats (9 calories per gram). Carbohydrates are the body's primary energy source. Proteins are essential for building and repairing tissues. Fats support cell function, hormone production, and vitamin absorption. Water is sometimes called the fourth macronutrient as it is needed in large quantities. Q: What vitamins and minerals are most important? A: Key vitamins include Vitamin A (vision, immune function), B vitamins (energy metabolism, nerve function), Vitamin C (immune system, collagen synthesis), Vitamin D (calcium absorption, bone health), Vitamin E (antioxidant),",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_1",
+    "doc_id": "doc6_nutrition",
+    "text": "sometimes called the fourth macronutrient as it is needed in large quantities. Q: What vitamins and minerals are most important? A: Key vitamins include Vitamin A (vision, immune function), B vitamins (energy metabolism, nerve function), Vitamin C (immune system, collagen synthesis), Vitamin D (calcium absorption, bone health), Vitamin E (antioxidant), and Vitamin K (blood clotting). Important minerals include calcium (bones and teeth), iron (oxygen transport), magnesium (muscle and nerve function), potassium (blood pressure regulation), zinc (immune function), and iodine (thyroid function). Deficiencies in these can cause serious health problems. Q: How many calories does a person need per day? A: Caloric needs vary based on age, sex, height, weight, and activity level. On average, adult women need about 1,600-2,400 calories per day and adult men need about 2,000-3,000 calories per day. Active individuals need more calories. The Dietary Reference Intake (DRI) provides specific recommendations. Online calculators using the Harris-Benedict or Mifflin-St Jeor equation can estimate individual caloric needs more precisely based on personal characteristics and activity level. Q: What is the Mediterranean diet? A: The Mediterranean diet is based on the traditional eating habits of people in countries bordering the Mediterranean Sea. It emphasizes plant foods (vegetables, fruits, legumes, nuts,",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_2",
+    "doc_id": "doc6_nutrition",
+    "text": "Mifflin-St Jeor equation can estimate individual caloric needs more precisely based on personal characteristics and activity level. Q: What is the Mediterranean diet? A: The Mediterranean diet is based on the traditional eating habits of people in countries bordering the Mediterranean Sea. It emphasizes plant foods (vegetables, fruits, legumes, nuts, whole grains), olive oil as the primary fat, moderate amounts of fish and seafood, low to moderate amounts of dairy and eggs, and limited red meat and processed foods. It is associated with reduced risk of cardiovascular disease, diabetes, cancer, and cognitive decline, and is consistently ranked among the healthiest diets in the world. Q: How much water should a person drink per day? A: The National Academies of Sciences recommends about 3.7 liters (125 oz) per day for men and 2.7 liters (91 oz) for women total water intake, including water from all beverages and foods. Plain water, while the best hydrator, is not the only source — fruits, vegetables, and other beverages contribute. Water needs increase with physical activity, heat, illness, and pregnancy or breastfeeding. Thirst is a general indicator, but certain populations (elderly, athletes) should monitor intake more carefully. Q: What is the glycemic index? A: The",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_3",
+    "doc_id": "doc6_nutrition",
+    "text": "the best hydrator, is not the only source — fruits, vegetables, and other beverages contribute. Water needs increase with physical activity, heat, illness, and pregnancy or breastfeeding. Thirst is a general indicator, but certain populations (elderly, athletes) should monitor intake more carefully. Q: What is the glycemic index? A: The glycemic index (GI) is a rating system for foods containing carbohydrates that shows how quickly each food affects blood sugar levels. Foods are rated on a scale of 0 to 100. Low GI foods (below 55) such as legumes and most fruits cause a slow rise in blood sugar. High GI foods (above 70) such as white bread and sugary drinks cause rapid spikes. For people with diabetes or metabolic conditions, choosing low GI foods can help maintain stable blood sugar and improve overall health. Q: What are antioxidants and why are they important? A: Antioxidants are substances that protect cells from damage caused by free radicals — unstable molecules produced during metabolism and in response to environmental factors like pollution and UV radiation. Key dietary antioxidants include vitamins C and E, beta-carotene, selenium, and various phytochemicals found in colorful fruits and vegetables (like lycopene in tomatoes and anthocyanins in",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_4",
+    "doc_id": "doc6_nutrition",
+    "text": "cells from damage caused by free radicals — unstable molecules produced during metabolism and in response to environmental factors like pollution and UV radiation. Key dietary antioxidants include vitamins C and E, beta-carotene, selenium, and various phytochemicals found in colorful fruits and vegetables (like lycopene in tomatoes and anthocyanins in berries). A diet rich in antioxidants is associated with reduced risk of chronic diseases including heart disease, cancer, and age-related conditions. Q: Is skipping breakfast harmful? A: Research on breakfast and health outcomes is mixed. Traditionally, breakfast was considered the most important meal of the day for metabolism and focus. However, recent studies suggest that the quality of overall diet matters more than whether breakfast is eaten. Intermittent fasting, which often involves skipping breakfast, can be beneficial for some people. Children and adolescents generally benefit from eating breakfast for concentration and academic performance. Individuals with diabetes should consult their doctor about breakfast timing and content. Q: What is fiber and why is it important? A: Dietary fiber is a type of carbohydrate found in plant foods that the body cannot fully digest. Soluble fiber (found in oats, beans, apples) dissolves in water and helps lower blood cholesterol and glucose levels.",
+    "start_word": 600,
+    "end_word": 800
+  },
+  {
+    "chunk_id": "doc6_nutrition_chunk_5",
+    "doc_id": "doc6_nutrition",
+    "text": "about breakfast timing and content. Q: What is fiber and why is it important? A: Dietary fiber is a type of carbohydrate found in plant foods that the body cannot fully digest. Soluble fiber (found in oats, beans, apples) dissolves in water and helps lower blood cholesterol and glucose levels. Insoluble fiber (found in whole grains, nuts, vegetables) adds bulk to stool and aids digestion. Adults should consume 25-38 grams of fiber per day. A high-fiber diet is associated with reduced risk of heart disease, diabetes, colorectal cancer, and obesity, and promotes healthy gut microbiome.",
+    "start_word": 750,
+    "end_word": 845
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_0",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "MEDICAL FAQ - INFECTIOUS DISEASES AND VACCINES Q: What is a vaccine and how does it work? A: A vaccine is a biological preparation that provides active acquired immunity to a specific disease. Vaccines contain weakened or inactivated forms of a pathogen, subunit proteins, or mRNA that teaches the immune system to recognize and fight the pathogen. When you receive a vaccine, your immune system produces antibodies and memory cells. If you later encounter the real pathogen, your immune system can respond quickly and prevent or reduce illness. Vaccines have been one of the greatest public health achievements in history. Q: What is the difference between a bacterial and viral infection? A: Bacteria are single-celled living organisms that can reproduce on their own. Bacterial infections are treated with antibiotics. Viruses are much smaller than bacteria and require a host cell to replicate. Viral infections are treated with antiviral medications or managed with supportive care; most mild viral infections resolve on their own. Using antibiotics for viral infections is ineffective and contributes to antibiotic resistance. Examples of bacterial infections include strep throat and tuberculosis; viral examples include influenza and HIV. Q: What is antibiotic resistance? A: Antibiotic resistance occurs when bacteria",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_1",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "managed with supportive care; most mild viral infections resolve on their own. Using antibiotics for viral infections is ineffective and contributes to antibiotic resistance. Examples of bacterial infections include strep throat and tuberculosis; viral examples include influenza and HIV. Q: What is antibiotic resistance? A: Antibiotic resistance occurs when bacteria evolve mechanisms to survive antibiotic treatment. It happens when antibiotics are overused or misused — such as not completing a prescribed course or using antibiotics for viral infections. Resistant bacteria cause harder-to-treat infections that require stronger antibiotics. The WHO considers antibiotic resistance one of the biggest threats to global health. Prevention includes using antibiotics only when prescribed, completing the full course, and not sharing antibiotics. Q: What is the flu and how is it different from a cold? A: Influenza (flu) is a contagious respiratory illness caused by influenza viruses. Unlike the common cold (usually caused by rhinoviruses), the flu comes on suddenly and tends to be more severe. Flu symptoms include high fever, severe body aches, extreme fatigue, headache, dry cough, and chills. Cold symptoms are usually milder — runny nose, sneezing, mild cough, and low-grade fever. Annual flu vaccination is recommended for everyone 6 months and older. Q:",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_2",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "comes on suddenly and tends to be more severe. Flu symptoms include high fever, severe body aches, extreme fatigue, headache, dry cough, and chills. Cold symptoms are usually milder — runny nose, sneezing, mild cough, and low-grade fever. Annual flu vaccination is recommended for everyone 6 months and older. Q: How is HIV transmitted and can it be cured? A: HIV (Human Immunodeficiency Virus) is transmitted through contact with certain body fluids of a person who has HIV — blood, semen, vaginal fluids, rectal fluids, and breast milk. It is NOT spread by casual contact, hugging, sharing dishes, or mosquito bites. HIV cannot currently be cured, but antiretroviral therapy (ART) is highly effective at controlling the virus, allowing people with HIV to live long, healthy lives and preventing transmission. PrEP (pre-exposure prophylaxis) is a preventive medication for high-risk individuals. Q: What is tuberculosis (TB)? A: Tuberculosis is an infectious disease caused by Mycobacterium tuberculosis bacteria. It primarily affects the lungs (pulmonary TB) but can also affect other organs. TB spreads through the air when an infected person coughs, sneezes, or speaks. Symptoms include a persistent cough (lasting 3+ weeks), coughing blood, chest pain, fatigue, weight loss, night sweats, and fever.",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_3",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "caused by Mycobacterium tuberculosis bacteria. It primarily affects the lungs (pulmonary TB) but can also affect other organs. TB spreads through the air when an infected person coughs, sneezes, or speaks. Symptoms include a persistent cough (lasting 3+ weeks), coughing blood, chest pain, fatigue, weight loss, night sweats, and fever. TB is treated with a combination of antibiotics taken for 6-9 months. Drug-resistant TB is a growing global concern. Q: What is malaria and how is it prevented? A: Malaria is a life-threatening disease caused by Plasmodium parasites transmitted through the bites of infected female Anopheles mosquitoes. Symptoms include fever, chills, sweats, headache, nausea, and vomiting, appearing 10-15 days after infection. It is preventable and treatable. Prevention includes using insecticide-treated mosquito nets, indoor spraying, antimalarial medications (prophylaxis), and mosquito repellents. A malaria vaccine (RTS,S/AS01) has been approved for use in sub-Saharan Africa for young children. Q: Why is handwashing important for preventing infections? A: Handwashing with soap and water is one of the most effective ways to prevent the spread of many types of illness. Hands can carry and transfer pathogens from surfaces to the face and body. Proper handwashing (at least 20 seconds with soap) removes dirt, viruses, bacteria,",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_4",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "for preventing infections? A: Handwashing with soap and water is one of the most effective ways to prevent the spread of many types of illness. Hands can carry and transfer pathogens from surfaces to the face and body. Proper handwashing (at least 20 seconds with soap) removes dirt, viruses, bacteria, and other contaminants. It is especially important before eating or preparing food, after using the toilet, after coughing or sneezing, after handling animals, and after touching surfaces in public places. Hand sanitizer (60%+ alcohol) is an effective alternative when soap and water are unavailable. Q: What is the recommended vaccination schedule for children? A: The CDC recommended childhood vaccination schedule includes vaccines for Hepatitis B (birth, 1-2 months, 6-18 months), DTaP (diphtheria, tetanus, pertussis) at 2, 4, 6 months, and boosters, Hib (Haemophilus influenzae type b) at 2, 4, 6 months, PCV13 (pneumococcal), IPV (polio), MMR (measles, mumps, rubella), varicella (chickenpox), Hepatitis A, and annual influenza vaccine from 6 months. Vaccines are rigorously tested for safety and efficacy before approval. The schedule is designed to protect children when they are most vulnerable. Q: What is herd immunity? A: Herd immunity (also called community immunity) occurs when a large portion of",
+    "start_word": 600,
+    "end_word": 800
+  },
+  {
+    "chunk_id": "doc7_infectious_diseases_chunk_5",
+    "doc_id": "doc7_infectious_diseases",
+    "text": "(chickenpox), Hepatitis A, and annual influenza vaccine from 6 months. Vaccines are rigorously tested for safety and efficacy before approval. The schedule is designed to protect children when they are most vulnerable. Q: What is herd immunity? A: Herd immunity (also called community immunity) occurs when a large portion of a population becomes immune to a disease, making the spread of disease from person to person unlikely. This indirectly protects people who cannot be vaccinated (infants, immunocompromised individuals). The threshold for herd immunity varies by disease — measles requires about 95% immunity, while polio requires about 80-85%. Herd immunity can be achieved through vaccination or natural infection, but vaccination is the safer method as it avoids the risks of disease itself.",
+    "start_word": 750,
+    "end_word": 871
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_0",
+    "doc_id": "doc8_cancer",
+    "text": "MEDICAL FAQ - CANCER AWARENESS Q: What is cancer? A: Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. If the spread is not controlled, it can result in death. Cancer can develop in almost any organ or tissue in the body. It arises from genetic mutations that disrupt normal cell growth regulation. There are more than 100 types of cancer, including breast cancer, lung cancer, colon cancer, skin cancer, leukemia, and lymphoma. Cancer is the second leading cause of death globally, but survival rates are improving with advances in detection and treatment. Q: What are the common warning signs of cancer? A: Warning signs include unexplained weight loss, fatigue, fever, pain, skin changes (new or changing moles, yellowing, darkening), changes in bowel or bladder habits, unusual bleeding or discharge, thickening or lump in breast or elsewhere, difficulty swallowing, indigestion that doesn't go away, and a cough or hoarseness that doesn't resolve. These symptoms don't always mean cancer, but should be evaluated by a doctor. Early detection significantly improves treatment outcomes. Q: What causes cancer? A: Cancer is caused by genetic mutations that alter how cells grow and divide. These mutations can be",
+    "start_word": 0,
+    "end_word": 200
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_1",
+    "doc_id": "doc8_cancer",
+    "text": "away, and a cough or hoarseness that doesn't resolve. These symptoms don't always mean cancer, but should be evaluated by a doctor. Early detection significantly improves treatment outcomes. Q: What causes cancer? A: Cancer is caused by genetic mutations that alter how cells grow and divide. These mutations can be inherited or acquired through environmental exposures and lifestyle factors. Known risk factors include tobacco use (the leading cause of preventable cancer deaths), excessive sun exposure (UV radiation), ionizing radiation, certain chemicals and carcinogens, viral infections (HPV, HBV, HCV, EBV), obesity, alcohol use, poor diet, physical inactivity, and older age. Some cancers have a strong hereditary component (e.g., BRCA mutations and breast/ovarian cancer). Q: How is cancer treated? A: Cancer treatment depends on the type, stage, and location of cancer, as well as the patient's overall health. Main treatment options include surgery (to remove tumors), radiation therapy (using high-energy rays to kill cancer cells), chemotherapy (drugs that kill cancer cells throughout the body), immunotherapy (using the immune system to fight cancer), targeted therapy (drugs targeting specific molecular changes in cancer cells), and hormone therapy. Many patients receive a combination of treatments. Palliative care addresses symptoms and improves quality of life throughout",
+    "start_word": 150,
+    "end_word": 350
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_2",
+    "doc_id": "doc8_cancer",
+    "text": "kill cancer cells), chemotherapy (drugs that kill cancer cells throughout the body), immunotherapy (using the immune system to fight cancer), targeted therapy (drugs targeting specific molecular changes in cancer cells), and hormone therapy. Many patients receive a combination of treatments. Palliative care addresses symptoms and improves quality of life throughout treatment. Q: What is cancer screening? A: Cancer screening involves testing for cancer or pre-cancer in people who show no symptoms. Early detection through screening can significantly improve survival rates. Common screenings include mammograms for breast cancer, Pap smears and HPV tests for cervical cancer, colonoscopy for colorectal cancer, low-dose CT scans for lung cancer (in heavy smokers), and PSA tests for prostate cancer. Screening recommendations vary by age, sex, and risk factors. Regular screening as recommended by healthcare providers is crucial for early detection. Q: What is chemotherapy and what are its side effects? A: Chemotherapy uses drugs to kill cancer cells or stop them from dividing. It can be used to cure cancer, control its growth, or relieve symptoms. Chemotherapy is usually given in cycles with rest periods to allow the body to recover. Because it affects rapidly dividing cells throughout the body (not just cancer cells), it",
+    "start_word": 300,
+    "end_word": 500
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_3",
+    "doc_id": "doc8_cancer",
+    "text": "kill cancer cells or stop them from dividing. It can be used to cure cancer, control its growth, or relieve symptoms. Chemotherapy is usually given in cycles with rest periods to allow the body to recover. Because it affects rapidly dividing cells throughout the body (not just cancer cells), it can cause side effects including nausea and vomiting, fatigue, hair loss, increased infection risk (low white blood cells), anemia (low red blood cells), easy bruising or bleeding, mouth sores, appetite changes, and nerve damage. Q: What is breast cancer? A: Breast cancer is cancer that forms in breast tissue, most commonly in the ducts (ductal carcinoma) or lobules (lobular carcinoma). It is the most common cancer in women globally, though men can also develop it. Risk factors include age, family history, BRCA1/2 gene mutations, hormonal factors, alcohol use, and obesity. Symptoms include a lump in the breast or armpit, changes in breast size or shape, skin changes, nipple discharge, and pain. Treatment includes surgery, radiation, chemotherapy, hormone therapy, and targeted therapies. Q: Can lifestyle changes reduce cancer risk? A: Yes, many cancer risk factors are modifiable. Not smoking or quitting smoking reduces risk of lung, mouth, throat, esophageal, and other",
+    "start_word": 450,
+    "end_word": 650
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_4",
+    "doc_id": "doc8_cancer",
+    "text": "in breast size or shape, skin changes, nipple discharge, and pain. Treatment includes surgery, radiation, chemotherapy, hormone therapy, and targeted therapies. Q: Can lifestyle changes reduce cancer risk? A: Yes, many cancer risk factors are modifiable. Not smoking or quitting smoking reduces risk of lung, mouth, throat, esophageal, and other cancers. Maintaining healthy weight, exercising regularly, eating a diet rich in fruits, vegetables, and fiber, limiting alcohol, protecting skin from UV radiation, getting vaccinated against cancer-causing viruses (HPV, HBV), avoiding unnecessary radiation, and getting recommended cancer screenings all significantly reduce cancer risk. Collectively, lifestyle changes could prevent up to one-third of cancer deaths. Q: What is leukemia? A: Leukemia is a cancer of blood-forming tissues, primarily the bone marrow and lymphatic system. It results in the production of abnormal white blood cells that cannot function properly and crowd out healthy cells. Types include Acute Lymphoblastic Leukemia (ALL), Acute Myeloid Leukemia (AML), Chronic Lymphocytic Leukemia (CLL), and Chronic Myeloid Leukemia (CML). Symptoms include fatigue, frequent infections, fever, easy bruising or bleeding, bone pain, and swollen lymph nodes. Treatment includes chemotherapy, targeted therapy, radiation, and stem cell transplantation. Q: What is palliative care in cancer treatment? A: Palliative care is specialized medical",
+    "start_word": 600,
+    "end_word": 800
+  },
+  {
+    "chunk_id": "doc8_cancer_chunk_5",
+    "doc_id": "doc8_cancer",
+    "text": "(AML), Chronic Lymphocytic Leukemia (CLL), and Chronic Myeloid Leukemia (CML). Symptoms include fatigue, frequent infections, fever, easy bruising or bleeding, bone pain, and swollen lymph nodes. Treatment includes chemotherapy, targeted therapy, radiation, and stem cell transplantation. Q: What is palliative care in cancer treatment? A: Palliative care is specialized medical care focused on providing relief from pain, symptoms, and the stress of serious illness like cancer. It is provided by a team of doctors, nurses, and specialists who work alongside the primary treatment team. Palliative care addresses physical symptoms (pain, nausea, fatigue), psychological issues (anxiety, depression), social and spiritual needs, and helps patients and families make informed decisions. It can be provided alongside curative treatment at any stage of illness and is not limited to end-of-life care. It consistently improves quality of life.",
+    "start_word": 750,
+    "end_word": 883
+  }
+]

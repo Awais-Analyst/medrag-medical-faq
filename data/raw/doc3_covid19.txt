@@ -1,0 +1,31 @@
+MEDICAL FAQ - COVID-19
+
+Q: What is COVID-19?
+A: COVID-19 is an infectious disease caused by the SARS-CoV-2 coronavirus, first identified in Wuhan, China in December 2019. It was declared a global pandemic by the World Health Organization (WHO) in March 2020. The virus spreads primarily through respiratory droplets and aerosols when an infected person breathes, talks, coughs, or sneezes. It can also spread by touching contaminated surfaces and then touching the face.
+
+Q: What are the symptoms of COVID-19?
+A: Common symptoms include fever or chills, cough, shortness of breath, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea. Symptoms appear 2 to 14 days after exposure. Some people are asymptomatic (show no symptoms) but can still spread the virus. Severe illness can cause pneumonia, acute respiratory distress syndrome, and organ failure.
+
+Q: How is COVID-19 treated?
+A: Most mild to moderate cases recover at home with rest, hydration, and over-the-counter medications for fever and pain relief. Antiviral medications such as Paxlovid (nirmatrelvir/ritonavir) are available for high-risk patients. Severe cases may require hospitalization, supplemental oxygen, or mechanical ventilation. Monoclonal antibody treatments and corticosteroids like dexamethasone have been used in severe cases. Early treatment improves outcomes.
+
+Q: How can COVID-19 be prevented?
+A: Prevention measures include vaccination, wearing well-fitted masks in crowded or indoor settings, frequent hand washing with soap and water for at least 20 seconds, using hand sanitizer with at least 60% alcohol, maintaining physical distancing, improving ventilation in indoor spaces, and staying home when sick. Vaccination is the most effective way to prevent severe illness, hospitalization, and death.
+
+Q: What is long COVID?
+A: Long COVID (also called Post-COVID Conditions) refers to a wide range of health problems that persist for 4 or more weeks after the initial COVID-19 infection. Symptoms include fatigue, shortness of breath, cognitive impairment ("brain fog"), joint pain, chest pain, depression, anxiety, and sleep disturbances. Long COVID can affect people regardless of the severity of their initial infection and can last for months or even years.
+
+Q: How effective are COVID-19 vaccines?
+A: COVID-19 vaccines have been shown to be highly effective at preventing severe illness, hospitalization, and death. mRNA vaccines (Pfizer-BioNTech and Moderna) initially showed over 90% effectiveness against the original strain. Effectiveness against newer variants varies, but vaccines continue to provide strong protection against severe disease. Booster doses help maintain and enhance protection over time.
+
+Q: What is the difference between quarantine and isolation for COVID-19?
+A: Isolation is used for people who have tested positive for COVID-19 or have symptoms, to prevent spreading the virus to others. Quarantine is used for people who have been exposed to COVID-19 but are not yet sick, to monitor for symptoms. The CDC currently recommends isolation for at least 5 days after a positive test, followed by masking when around others until day 10.
+
+Q: Can COVID-19 affect children?
+A: Children can get COVID-19 and can spread it to others, but they generally experience milder illness than adults. However, some children develop severe illness, particularly those with underlying health conditions. A rare but serious condition called Multisystem Inflammatory Syndrome in Children (MIS-C) has been linked to COVID-19. COVID-19 vaccines are approved for children aged 6 months and older.
+
+Q: What are COVID-19 variants?
+A: Variants of SARS-CoV-2 arise through mutations in the virus's genetic material. The WHO classifies variants as Variants of Concern (VOC), Variants of Interest (VOI), or Variants Under Monitoring. Notable variants include Alpha, Beta, Delta, and Omicron. The Omicron variant and its subvariants have been dominant globally since late 2021. Some variants are more transmissible or may partially evade immune responses from previous infection or vaccination.
+
+Q: How long does COVID-19 immunity last?
+A: Immunity from COVID-19 infection or vaccination is not permanent. Natural immunity from infection varies widely and may wane over time. Vaccine-induced immunity also decreases over time, which is why booster doses are recommended. Hybrid immunity (from both infection and vaccination) appears to provide stronger and more durable protection. Current guidance recommends staying up to date with COVID-19 vaccines including recommended boosters.
