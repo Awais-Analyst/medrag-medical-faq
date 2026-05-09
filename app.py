@@ -190,22 +190,32 @@ mark.hl { background: rgba(16,163,127,0.25); color: #5eead4 !important;
 .nav-active > button { background: #1e2e28 !important; border-color: #10a37f44 !important; color: #10a37f !important; }
 
 /* ══ BUG FIXES ══ */
-/* Fix arrow icon ONLY - do NOT hide span (that's the label text) */
-details > summary > svg { display: none !important; }
-details > summary::marker { display: none !important; }
-details > summary::-webkit-details-marker { display: none !important; }
-[data-testid="stExpanderToggleIcon"] { display: none !important; }
+/* keyboard_double_ - hide with all possible selectors */
+[data-testid="InputInstructions"] { visibility:hidden !important; height:0 !important; overflow:hidden !important; }
+[class*="InputInstructions"] { visibility:hidden !important; height:0 !important; overflow:hidden !important; }
+[class*="_instructions"] { visibility:hidden !important; height:0 !important; overflow:hidden !important; }
+div[data-baseweb="textarea"] ~ div { visibility:hidden !important; height:0 !important; }
+.stChatInput ~ div { visibility:hidden !important; height:0 !important; }
 
-/* Fix: keyboard_double_ text above sidebar */
-[data-testid="InputInstructions"] { display: none !important; }
-[class*="InputInstructions"] { display: none !important; }
-[class*="_instructions"] { display: none !important; }
-div[data-baseweb="textarea"] ~ div { display: none !important; }
-
-/* Expander text must stay visible */
-details > summary { color: #888 !important; font-size: 0.84rem !important;
-    padding: 0.5rem 0.8rem !important; cursor: pointer !important; }
-details > summary span { color: #888 !important; display: inline !important; }
+/* Make expander look like a small ChatGPT-style button */
+details { border: none !important; background: transparent !important; margin-top: 0.5rem !important; }
+details > summary {
+    display: inline-flex !important; align-items: center !important; gap: 0.4rem !important;
+    background: #1a1a1a !important; border: 1px solid #2a2a2a !important;
+    border-radius: 8px !important; padding: 0.3rem 0.75rem !important;
+    cursor: pointer !important; color: #888 !important; font-size: 0.82rem !important;
+    width: auto !important; list-style: none !important;
+    transition: all 0.15s !important;
+}
+details > summary:hover { background: #222 !important; border-color: #10a37f66 !important; color: #ececec !important; }
+details[open] > summary { color: #10a37f !important; border-color: #10a37f44 !important; }
+details > summary::marker, details > summary::-webkit-details-marker { display: none !important; }
+details > summary > svg, [data-testid="stExpanderToggleIcon"] { display: none !important; }
+details > summary span { display: inline !important; color: inherit !important; }
+.streamlit-expanderContent, details > div { 
+    background: transparent !important; border: none !important; 
+    padding: 0.5rem 0 0 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -394,19 +404,18 @@ if page == "chat":
         with st.chat_message(msg["role"], avatar="🧑" if msg["role"]=="user" else "🩺"):
             st.markdown(msg["content"])
             if msg.get("sources"):
-                st.markdown('<div style="color:#10a37f;font-size:0.85rem;font-weight:600;margin:0.8rem 0 0.4rem;border-top:1px solid #222;padding-top:0.7rem">📚 Retrieved Sources</div>', unsafe_allow_html=True)
-                for rank, chunk in enumerate(msg["sources"], 1):
-                    excerpt = smart_excerpt(chunk["text"], msg.get("query",""))
-                    hl_text = highlight(excerpt, msg.get("query",""))
-                    lbl     = doc_label(chunk["doc_id"])
-                    score   = chunk.get("score", 0)
-                    st.markdown(f"""
-                    <div class="source-block">
-                      <div class="source-label">Rank {rank} · {lbl}
-                        <span class="score-badge">{score:.3f}</span>
-                      </div>
-                      {hl_text}
-                    </div>""", unsafe_allow_html=True)
+                with st.expander(f"📚 Sources ({len(msg['sources'])})", expanded=False):
+                    for rank, chunk in enumerate(msg["sources"], 1):
+                        excerpt = smart_excerpt(chunk["text"], msg.get("query",""))
+                        hl_text = highlight(excerpt, msg.get("query",""))
+                        lbl     = doc_label(chunk["doc_id"])
+                        score   = chunk.get("score", 0)
+                        st.markdown(f"""
+                        <div class="source-block">
+                          <div class="source-label">Rank {rank} · {lbl}
+                            <span class="score-badge">{score:.3f}</span>
+                          </div>{hl_text}
+                        </div>""", unsafe_allow_html=True)
 
     # Chat input
     user_input = st.chat_input("Ask a medical question…")
@@ -440,21 +449,18 @@ if page == "chat":
                     answer = result["answer"]
 
                     st.markdown(answer)
-
-                    # Show sources always visible
-                    st.markdown(f'<div style="color:#10a37f;font-size:0.85rem;font-weight:600;margin:0.8rem 0 0.4rem;border-top:1px solid #222;padding-top:0.7rem">📚 Retrieved Sources ({st.session_state.method.upper()})</div>', unsafe_allow_html=True)
-                    for rank, chunk in enumerate(ctx, 1):
-                        excerpt = smart_excerpt(chunk["text"], q)
-                        hl_text = highlight(excerpt, q)
-                        lbl     = doc_label(chunk["doc_id"])
-                        score   = chunk.get("score", 0)
-                        st.markdown(f"""
-                        <div class="source-block">
-                          <div class="source-label">Rank {rank} · {lbl}
-                            <span class="score-badge">{score:.3f}</span>
-                          </div>
-                          {hl_text}
-                        </div>""", unsafe_allow_html=True)
+                    with st.expander(f"📚 Sources ({len(ctx)})", expanded=False):
+                        for rank, chunk in enumerate(ctx, 1):
+                            excerpt = smart_excerpt(chunk["text"], q)
+                            hl_text = highlight(excerpt, q)
+                            lbl     = doc_label(chunk["doc_id"])
+                            score   = chunk.get("score", 0)
+                            st.markdown(f"""
+                            <div class="source-block">
+                              <div class="source-label">Rank {rank} · {lbl}
+                                <span class="score-badge">{score:.3f}</span>
+                              </div>{hl_text}
+                            </div>""", unsafe_allow_html=True)
 
                     st.session_state.messages.append({
                         "role": "assistant", "content": answer,
@@ -516,6 +522,10 @@ elif page == "eval":
             st.error("⚠️ API key required.")
         else:
             try:
+                # Delete old report so results refresh
+                old_path = os.path.join(PROC, "evaluation_report.json")
+                if os.path.exists(old_path):
+                    os.remove(old_path)
                 chunks, texts, tfidf_ret, dense_ret = load_retrievers()
                 client = load_client(api_key)
                 from part2_retrieval import retrieve
@@ -523,9 +533,9 @@ elif page == "eval":
                 from part5_evaluation import evaluate_system
                 rfn = lambda q: retrieve(q, tfidf_ret, dense_ret, chunks, top_k=3)
                 gfn = lambda q, c: generate_answer(q, c, client)
-                with st.spinner("Running 10 evaluation queries…"):
+                with st.spinner("🔬 Running 10 evaluation queries via Groq API... (~30 seconds)"):
                     report = evaluate_system(rfn, gfn)
-                st.success("✅ Evaluation complete!")
+                st.success("✅ Evaluation complete! Results updated below.")
                 st.rerun()
             except Exception as e:
                 st.error(f"❌ {e}")
