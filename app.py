@@ -203,18 +203,22 @@ details > summary {
     display: inline-flex !important; align-items: center !important; gap: 0.4rem !important;
     background: #1a1a1a !important; border: 1px solid #2a2a2a !important;
     border-radius: 8px !important; padding: 0.3rem 0.75rem !important;
-    cursor: pointer !important; color: #888 !important; font-size: 0.82rem !important;
+    cursor: pointer !important; font-size: 0.82rem !important;
     width: auto !important; list-style: none !important;
-    transition: all 0.15s !important;
+    transition: all 0.15s !important; color: #888 !important;
 }
 details > summary:hover { background: #222 !important; border-color: #10a37f66 !important; color: #ececec !important; }
 details[open] > summary { color: #10a37f !important; border-color: #10a37f44 !important; }
 details > summary::marker, details > summary::-webkit-details-marker { display: none !important; }
-details > summary > svg, [data-testid="stExpanderToggleIcon"] { display: none !important; }
-details > summary span { display: inline !important; color: inherit !important; }
-.streamlit-expanderContent, details > div { 
-    background: transparent !important; border: none !important; 
-    padding: 0.5rem 0 0 !important;
+/* Hide ONLY the icon span (first-child), keep label span (last-child) visible */
+details > summary > span:first-child {
+    display: none !important; width: 0 !important; overflow: hidden !important;
+    font-size: 0 !important; visibility: hidden !important;
+}
+details > summary > span:last-child { display: inline !important; color: inherit !important; }
+[data-testid="stExpanderToggleIcon"] { display: none !important; font-size: 0 !important; }
+.streamlit-expanderContent, details > div {
+    background: transparent !important; border: none !important; padding: 0.5rem 0 0 !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -538,7 +542,20 @@ elif page == "eval":
                 st.success("✅ Evaluation complete! Results updated below.")
                 st.rerun()
             except Exception as e:
-                st.error(f"❌ {e}")
+                err_msg = str(e)
+                if "429" in err_msg or "rate_limit" in err_msg:
+                    st.warning("""
+                    ⏳ **Daily Token Limit Reached**
+
+                    Your Groq free account has used all 100,000 tokens for today.
+                    This resets automatically every 24 hours.
+
+                    **Solution:** Wait until tomorrow and try again, OR go to
+                    [console.groq.com/settings/billing](https://console.groq.com/settings/billing)
+                    to upgrade for more tokens.
+                    """)
+                else:
+                    st.error(f"❌ {e}")
 
     eval_path = os.path.join(PROC, "evaluation_report.json")
     if os.path.exists(eval_path):
