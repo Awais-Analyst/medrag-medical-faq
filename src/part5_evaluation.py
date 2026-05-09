@@ -159,7 +159,9 @@ def evaluate_system(retriever_fn, generate_fn):
     print(f"  Accuracy                : {accuracy:.0%}")
     print(f"\n  Failure cases ({len(failures)}):")
     for f in failures:
-        print(f"    - {f['query'][:60]} | {f.get('issue', f'score={f.get(\"score\",\"N/A\")}')}")
+        score_val = f.get('score', 'N/A')
+        issue_val = f.get('issue', f'score={score_val}')
+        print(f"    - {f['query'][:60]} | {issue_val}")
     print(f"\n  Limitations observed:")
     print("    - System may lack very specific numerical data not in corpus")
     print("    - Overlapping topics may confuse retrieval (e.g., cancer + vaccines)")
