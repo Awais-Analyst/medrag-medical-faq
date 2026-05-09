@@ -123,13 +123,13 @@ def evaluate_system(retriever_fn, generate_fn):
                 failures.append({"query": query, "issue": "Failed to decline out-of-domain query",
                                   "answer": answer})
         elif score >= 0.6:
-            status  = f"CORRECT  (hit={score:.0%})"
+            status  = f"CORRECT (hit={int(score*100)}%)"
             correct += 1
         elif score >= 0.3:
-            status  = f"PARTIAL  (hit={score:.0%})"
+            status  = f"PARTIAL (hit={int(score*100)}%)"
             limitations.append({"query": query, "score": score, "answer": answer})
         else:
-            status  = f"FAILURE  (hit={score:.0%})"
+            status  = f"FAILURE (hit={int(score*100)}%)"
             failures.append({"query": query, "score": score, "answer": answer})
 
         print(f"  STATUS   : {status}")
@@ -155,8 +155,8 @@ def evaluate_system(retriever_fn, generate_fn):
     print("=" * 65)
     print(f"  Total queries evaluated : {len(EVAL_QUERIES)}")
     print(f"  Factual queries         : {factual_total}")
-    print(f"  Correct (≥60% keywords) : {correct}")
-    print(f"  Accuracy                : {accuracy:.0%}")
+    print(f"  Correct (>=60% keywords): {correct}")
+    print(f"  Accuracy                : {int(accuracy*100)}%")
     print(f"\n  Failure cases ({len(failures)}):")
     for f in failures:
         score_val = f.get('score', 'N/A')
