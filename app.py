@@ -197,29 +197,20 @@ mark.hl { background: rgba(16,163,127,0.25); color: #5eead4 !important;
 div[data-baseweb="textarea"] ~ div { visibility:hidden !important; height:0 !important; }
 .stChatInput ~ div { visibility:hidden !important; height:0 !important; }
 
-/* Make expander look like a small ChatGPT-style button */
-details { border: none !important; background: transparent !important; margin-top: 0.5rem !important; }
-details > summary {
-    display: inline-flex !important; align-items: center !important; gap: 0.4rem !important;
-    background: #1a1a1a !important; border: 1px solid #2a2a2a !important;
-    border-radius: 8px !important; padding: 0.3rem 0.75rem !important;
-    cursor: pointer !important; font-size: 0.82rem !important;
-    width: auto !important; list-style: none !important;
-    transition: all 0.15s !important; color: #888 !important;
+/* Sources toggle button - pure HTML details */
+details.src-details { border:none !important; background:transparent !important; display:inline-block !important; margin-top:0.4rem !important; }
+details.src-details > summary {
+    list-style:none !important; display:inline-flex !important; align-items:center !important;
+    background:#1a1a1a !important; border:1px solid #2a2a2a !important;
+    border-radius:8px !important; padding:0.3rem 0.6rem !important;
+    cursor:pointer !important; font-size:1rem !important; user-select:none !important;
+    transition: border-color 0.15s !important;
 }
-details > summary:hover { background: #222 !important; border-color: #10a37f66 !important; color: #ececec !important; }
-details[open] > summary { color: #10a37f !important; border-color: #10a37f44 !important; }
-details > summary::marker, details > summary::-webkit-details-marker { display: none !important; }
-/* Hide ONLY the icon span (first-child), keep label span (last-child) visible */
-details > summary > span:first-child {
-    display: none !important; width: 0 !important; overflow: hidden !important;
-    font-size: 0 !important; visibility: hidden !important;
-}
-details > summary > span:last-child { display: inline !important; color: inherit !important; }
-[data-testid="stExpanderToggleIcon"] { display: none !important; font-size: 0 !important; }
-.streamlit-expanderContent, details > div {
-    background: transparent !important; border: none !important; padding: 0.5rem 0 0 !important;
-}
+details.src-details > summary::-webkit-details-marker { display:none !important; }
+details.src-details > summary::marker { display:none !important; }
+details.src-details:hover > summary { border-color:#10a37f66 !important; }
+details.src-details[open] > summary { border-color:#10a37f !important; }
+details.src-details > div { padding-top:0.5rem !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -408,18 +399,18 @@ if page == "chat":
         with st.chat_message(msg["role"], avatar="🧑" if msg["role"]=="user" else "🩺"):
             st.markdown(msg["content"])
             if msg.get("sources"):
-                with st.expander(f"📚 Sources ({len(msg['sources'])})", expanded=False):
-                    for rank, chunk in enumerate(msg["sources"], 1):
-                        excerpt = smart_excerpt(chunk["text"], msg.get("query",""))
-                        hl_text = highlight(excerpt, msg.get("query",""))
-                        lbl     = doc_label(chunk["doc_id"])
-                        score   = chunk.get("score", 0)
-                        st.markdown(f"""
-                        <div class="source-block">
-                          <div class="source-label">Rank {rank} · {lbl}
-                            <span class="score-badge">{score:.3f}</span>
-                          </div>{hl_text}
-                        </div>""", unsafe_allow_html=True)
+                src_html = "".join(
+                    f"""<div class='source-block'>
+                      <div class='source-label'>Rank {rank} &middot; {doc_label(chunk['doc_id'])}
+                        <span class='score-badge'>{chunk.get('score',0):.3f}</span>
+                      </div>{highlight(smart_excerpt(chunk['text'], msg.get('query','')), msg.get('query',''))}
+                    </div>"""
+                    for rank, chunk in enumerate(msg["sources"], 1)
+                )
+                st.markdown(
+                    f"<details class='src-details'><summary>📖</summary><div>{src_html}</div></details>",
+                    unsafe_allow_html=True
+                )
 
     # Chat input
     user_input = st.chat_input("Ask a medical question…")
@@ -453,18 +444,18 @@ if page == "chat":
                     answer = result["answer"]
 
                     st.markdown(answer)
-                    with st.expander(f"📚 Sources ({len(ctx)})", expanded=False):
-                        for rank, chunk in enumerate(ctx, 1):
-                            excerpt = smart_excerpt(chunk["text"], q)
-                            hl_text = highlight(excerpt, q)
-                            lbl     = doc_label(chunk["doc_id"])
-                            score   = chunk.get("score", 0)
-                            st.markdown(f"""
-                            <div class="source-block">
-                              <div class="source-label">Rank {rank} · {lbl}
-                                <span class="score-badge">{score:.3f}</span>
-                              </div>{hl_text}
-                            </div>""", unsafe_allow_html=True)
+                    src_html = "".join(
+                        f"""<div class='source-block'>
+                          <div class='source-label'>Rank {rank} &middot; {doc_label(chunk['doc_id'])}
+                            <span class='score-badge'>{chunk.get('score',0):.3f}</span>
+                          </div>{highlight(smart_excerpt(chunk['text'], q), q)}
+                        </div>"""
+                        for rank, chunk in enumerate(ctx, 1)
+                    )
+                    st.markdown(
+                        f"<details class='src-details'><summary>📖</summary><div>{src_html}</div></details>",
+                        unsafe_allow_html=True
+                    )
 
                     st.session_state.messages.append({
                         "role": "assistant", "content": answer,
